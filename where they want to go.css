@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfbd4;
+    height: 100vh;
+}
+
+.form-container {
+    position: absolute;
+    background-color: beige;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 75%;
+    left: 25%;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select, textarea {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="number"], input[type="tel"], input[type="date"] {
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.submit-btn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 100%;
+        padding: 15px;
+    }
+}
+.nav_links{
+    list-style: none;
+
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    
+}
+.nav_links li a:hover{
+    transition: all 0.3s ease 0s;
+    color: gray;
+}   
+.main_front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+}
+.text{
+    background-color: rgba(0,255,255,1);
+    font-size: 100px;
+    border-radius:10px ;
+}
+.text1{
+    padding-left: 50%;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: beige;
+}

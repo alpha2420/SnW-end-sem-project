@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Funnel+Display:wght@300..800&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfbd4;
+    font-family: "Funnel Display", sans-serif;
+    box-sizing: border-box;
+}
+li, a {
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: beige;
+}
+
+.nav_links{
+    list-style: none;
+
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    
+}
+.nav_links li a:hover{
+    transition: all 0.3s ease 0s;
+    color: gray;
+}   
+.main_front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+}
+.text{
+    background-color: rgba(0,255,255,1);
+    font-size: 100px;
+    border-radius:10px ;
+}
+.text1{
+    padding-left: 50%;
+    font-size: 40px;
+}
+.gap1{
+    width: 100%;
+    height: 480px;
+}
+.Test{
+    position: absolute;
+    font-size: 60px;
+}
+.heading{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lowerdiv{
+    position: absolute;
+    background-color: #D4FF32;
+    width: 940px;
+    height: 70px;
+    top: 3px;
+}
+.main-body{
+    width: 100%;
+    height: 1700px;
+    margin-top: 130px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+}
+.Text1{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.imgage{
+    width: 400px;
+    border-radius: 30px;
+}
+li, p{
+    font-size: 20px;
+    padding: 30px;
+}
+h1{
+    font-size: 50px;
+    background-color: aquamarine;
+    width: 500px;
+    border-radius: 10px;
+}
+.Explore{
+    margin-left: 670px;
+    margin-top: 70px;
+    width: 250px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: bisque;
+}
+.footer{
+    height: 300px;
+    background-color: #1e1e1e;
+    padding: 0px;
+}
+.footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 90px;
+    margin-top: 30px;
+}
+.contentfoot{
+    position: absolute;
+    font-size: 60px;
+    color: aliceblue;
+    padding-left: 130px;
+    background-color: aqua;
+    border-radius:10px ;
+}
+.lowerfoot{
+    position: absolute;
+    background-color: #D4FF32;
+    width: 430px;
+    height: 70px;
+    left: 180px;
+    top: 150px;
+    border-radius:10px ;
+    padding-right: 50px;
+}
+
+.contentfooteral{
+    position: absolute;
+    left: 1200px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.explore{
+    text-align: center;
+    color: aqua;
+}
+a{
+    color: brown;
+}
+
+a:hover{
+    color: grey;
+}
+.a2{
+    color: black;
+}
