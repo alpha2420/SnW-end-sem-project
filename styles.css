@@ -143,9 +143,9 @@ header{
   .lowerdiv{
     position: absolute;
     background-color: #D4FF32;
-    width: 420px;
+    width: 920px;
     height: 80px;
-    left: 600px;
+    left: 350px;
     top: 60px;
     border-radius:10px ;
   }
@@ -156,6 +156,7 @@ header{
     align-items: center;
 }
 .catinfo1{
+    position: relative;
     width: 400px;
     height: 400px;
     background-color: blanchedalmond;
@@ -192,6 +193,7 @@ header{
     font-size: 30px;
 }
 .temple{
+    position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -228,8 +230,58 @@ header{
 
 .contentfooteral{
     position: absolute;
-    background-color: antiquewhite;
     left: 1200px;
     font-size: 20px;
     border-radius: 10px;
+    padding-right: 20px;
+}
+.gap2{
+    width: 100%;
+    height: 100px;
+}
+
+.lstex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+}
+.hello{
+    padding-left: 50%;
+    font-size: 20px;
+    color: brown;
+}
+.gap6{
+    width: 100%;
+    height: 50px;
+}
+.idf1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 25px;
+
+}
+.idf2{
+    position: absolute;
+    font-size: 25px;
+    width: 350px;
+    top: 10%;
+    left: 10%;
+}
+
+.linktag{
+    position: absolute;
+}
+.linktag1{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+.linktag1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
 }
